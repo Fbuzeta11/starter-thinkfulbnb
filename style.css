@@ -31,7 +31,12 @@ section.alternate-background {
 }
 
 main img {
-  width: 300px;
+  width: 400px;
+  
+}
+
+.grid-column .grid-row {
+  text-align: center;
 }
 
 /* ---  Groups & Items --- */
@@ -39,28 +44,32 @@ main img {
 .group {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .item {
   flex: 1;
   margin: 10px;
+  text-align: center;
 }
+
 
 .item-double {
   flex: 2;
 }
 
+
 /* -------  Navigation ------- */
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 20px 20px;
   text-align: center;
 }
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -90,6 +99,9 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 2px solid #ff385c;
   padding: 10px;
 }
@@ -101,7 +113,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 60%;
+  width: 65%;
   float: right;
 }
 
@@ -171,14 +183,16 @@ form {
   flex: 1;
   flex-direction: column; 
   margin: 10px;
+  justify-content: center;
+
 }
 
 .grid-row {
   display: flex;
   flex: 1;
   flex-direction: row;
+  justify-content: center;
 }
-
 
 }
 
