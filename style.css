@@ -1,6 +1,6 @@
 /* -------  General Styles ------- */
 
-bbody {
+body {
   font-family: "Lato", sans-serif;
 }
 
@@ -31,8 +31,8 @@ section.alternate-background {
 }
 
 main img {
-  width: 100%;
-  margin: 0 20px 20px 0px;
+  width: 90%;
+  margin: 20px 20px 20px 30px;
 }
 
 /* ---  Groups & Items --- */
@@ -45,8 +45,10 @@ main img {
 }
 
 .group img {
-  width: 100%;
+  width: 90%;
+  margin: 20px 20px 20px 30px;
 }
+
 
 .flex-start {
   align-items: flex-start;
@@ -71,6 +73,7 @@ header {
 }
 
 header nav ul {
+ 
   display: flex;
   margin: 10px 0px 15px 50px;
   padding-bottom: 0px;
@@ -78,13 +81,15 @@ header nav ul {
 }
 
 header nav ul li {
+
   list-style-type: none;
 }
 
 header nav ul li a {
   color: #fff;
+  text-align: center;
   text-decoration: none;
-  padding: 0 20px 0 0;
+  padding: 0 20px 0 30px;
 }
 
 header nav ul li a:hover {
@@ -129,7 +134,7 @@ form label {
   display: inline-block;
   color: #282e33;
   margin-bottom: 8px;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -137,14 +142,14 @@ form select,
 form input {
   width: 50%;
   margin-right: 15px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 form button {
   background-color: #ff385c;
   border: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   padding: 15px;
   width: 100%;
   margin: 0px 20px 0px 0px;
