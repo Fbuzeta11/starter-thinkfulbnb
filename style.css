@@ -132,47 +132,60 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 768px) {
+
+  
+  }
   header {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    flex-wrap: wrap;
   }
 
   .logo {
     margin: 14px 0 14px 20px;
     padding-top: 0;
     font-size: 42px;
+    flex-wrap: wrap;
   }
 
   form select, form input {
     margin-bottom: 20px;
     width: 180px;
+    flex-wrap: wrap;
   }
   
   header nav ul {
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .group {
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   form {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   form div {
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   form button {
     flex: 1;
+    flex-wrap: wrap;
   }
   
   form select, form input {
     margin-bottom: 0px;
+    flex-wrap: wrap;
   }
+
 }
